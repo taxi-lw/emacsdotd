@@ -1,0 +1,32 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/test3/mdbook/" . "src/")
+ ("/home/test3/" . "mdbook/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/test3/"
+ "/home/test3/mdbook/src/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "newfile2.txt"
+ "chapter_1.md"
+ "newfile"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/test3/" (26523 42509 381449 180000) ".bash_history" "mdbook/" ".emacs.d/" "../" "newfile2.txt" ".cache/" ".lesshst" ".ssh/" ".bash_logout" ".bashrc" ".bash_profile" "./" "newfile2.txt~" ".viminfo" "newfile" "taxilw4725")
+
+ ("/home/test3/mdbook/src/" (26523 40379 95878 76000) "../" "chapter_1.md" "./" "SUMMARY.md" "#chapter_1.md#" "images/")
+
+ ("/home/test3/mdbook/" (26523 39335 101908 495000) "../" "mermaid-init.js" ".github/" ".gitignore" "mermaid.min.js" ".git/" "src/" "book.toml" "./" "book/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
