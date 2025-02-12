@@ -2,12 +2,15 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/test3/journal/content/" . "posts/")
+ ("/home/test3/journal/" . "content/")
  ("/home/test3/mdbook/" . "src/")
- ("/home/test3/" . "mdbook/")
+ ("/home/test3/" . "journal/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/test3/journal/content/posts/"
  "/home/test3/"
  "/home/test3/mdbook/src/"
 )
@@ -21,9 +24,17 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/test3/" (26523 42509 381449 180000) ".bash_history" "mdbook/" ".emacs.d/" "../" "newfile2.txt" ".cache/" ".lesshst" ".ssh/" ".bash_logout" ".bashrc" ".bash_profile" "./" "newfile2.txt~" ".viminfo" "newfile" "taxilw4725")
+ ("/home/test3/journal/content/posts/" (26536 44841 961798 481000) "../" "cast.md" "./" ".#my-org.org" "the-dogs.md" "my-org.org" "my-first-post.md")
 
- ("/home/test3/mdbook/src/" (26523 40379 95878 76000) "../" "chapter_1.md" "./" "SUMMARY.md" "#chapter_1.md#" "images/")
+ ("/home/test3/journal/content/" (26524 10848 581466 45000) "../" "posts/" "./")
+
+ ("/home/test3/journal/" (26524 10136 309931 599000) "content/" "../" "i18n/" ".github/" "layouts/" "assets/" ".gitignore" "themes/" "hugo.toml" "data/" ".git/" ".gitmodules" "./" ".hugo_build.lock" "resources/" "archetypes/" "public/" "static/")
+
+ ("/home/test3/" (26527 42361 61255 647000) ".bash_history" "mdbook/" ".emacs.d/" "../" ".cache/" ".lesshst" ".ssh/" ".bash_logout" ".bashrc" "journal/" ".bash_profile" "./" ".viminfo" "taxilw4725")
+
+ ("/home/" (26520 61872 434327 877000) "test2/" "../" "test3/" "test1/" "./")
+
+ ("/home/test3/mdbook/src/" (26523 43858 902562 780000) "../" "chapter_1.md" "./" "SUMMARY.md" "images/")
 
  ("/home/test3/mdbook/" (26523 39335 101908 495000) "../" "mermaid-init.js" ".github/" ".gitignore" "mermaid.min.js" ".git/" "src/" "book.toml" "./" "book/")
 )

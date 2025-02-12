@@ -44,4 +44,4 @@
     (move-beginning-of-line 1)
     (forward-char column)))
 
-(define-key global-map "\C-u" 'rc/duplicate-line-2)
+;; (define-key global-map "\C-u" 'rc/duplicate-line-2)
